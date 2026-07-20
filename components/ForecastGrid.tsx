@@ -1,7 +1,7 @@
 import React from 'react';
 import { Droplets, TrendingDown, TrendingUp } from 'lucide-react';
 import { DailyForecastData } from '../types';
-import { getWeatherCondition, formatDayName } from '../utils/weatherUtils';
+import { getWeatherCondition, formatDayName } from './utils/weatherUtils';
 import WeatherIcon from './WeatherIcon';
 
 interface ForecastGridProps {
