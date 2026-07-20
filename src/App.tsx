@@ -17,8 +17,8 @@ import {
 } from 'lucide-react';
 import { GeocodingResult, WeatherForecastResponse, SavedLocation } from './types';
 import SearchBar from '../components/SearchBar';
-import ForecastGrid from '../components/ForecastGrid';
 import WeatherHero from '../components/WeatherHero';
+import ForecastGrid from '../components/ForecastGrid';
 import WeatherIntelligence from '../components/WeatherIntelligence';
 import { generateIntelligence } from './utils/weatherUtils';
 
