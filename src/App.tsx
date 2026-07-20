@@ -16,10 +16,10 @@ import {
   ArrowLeft
 } from 'lucide-react';
 import { GeocodingResult, WeatherForecastResponse, SavedLocation } from './types';
-import SearchBar from '../components/SearchBar';
-import WeatherHero from '../components/WeatherHero';
-import ForecastGrid from '../components/ForecastGrid';
-import WeatherIntelligence from '../components/WeatherIntelligence';
+import { SearchBar } from '../components/SearchBar';
+import { WeatherHero } from '../components/WeatherHero';
+import { ForecastGrid } from '../components/ForecastGrid';
+import { WeatherIntelligence } from '../components/WeatherIntelligence';
 import { generateIntelligence } from './utils/weatherUtils';
 
 export default function App() {
