@@ -1,7 +1,7 @@
 import React from 'react';
 import { Wind, Navigation, Thermometer, Map, Compass, Calendar, Sun, Moon } from 'lucide-react';
 import { CurrentWeatherData, GeocodingResult } from '../types';
-import { getWeatherCondition } from '../utils/weatherUtils';
+import { getWeatherCondition } from '../src/utils/weatherUtils';
 import WeatherIcon from './WeatherIcon';
 
 interface WeatherHeroProps {
